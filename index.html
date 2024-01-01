@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="icon" href="blue_repicthousebase_1484336386-1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/2a632569f7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="togglearea">
+    <label class="togglelogo"> RAVAL </label>
+    <label for="toggle"> 
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    </div>
+
+    <input type="checkbox" id="toggle">
+
+        <nav class="navbar">
+            <label class="logo"> RAVAL </label>
+            <ul id="navlinks"> 
+                <li class="navli"> <a href="#"> Home</a></li>
+                <li class="navli"> <a href="#services"> Services</a></li>
+                <li class="navli"> <a href="#highlights"> Highlights</a></li>
+                <li class="navli"> <a href="#homeloan"> Home Loan</a></li>
+                <li class="navli"> <a href="#contact"> Contact Us</a></li>
+            </ul>
+        </nav>
+</header>
+
+    <div class="container"> 
+        <div class="first" id="first">
+            <h1> RAVAL GROUP OF BUSINESS <br> Architectural Engineering Services</h1>
+            <p>20% OFF For New Buyer <br/> Limited Offer* </p> 
+        </div>
+
+        <div class="second" id="second">
+            <img src="building.png"> 
+        </div>
+    </div>
+     
+    <div class="services-title" id="services"> OUR SERVICES </div>
+    <div class="services">
+            <span> New Construction </span>
+            <span> Architects </span>
+            <span> Builders / Developers </span>
+            <span> Interior Decorators </span>
+            <span> Building Contractors </span>
+            <span> Home Inspection </span>
+    </div>
+
+    <div class="slider-title" id="highlights"> HIGHLIGHTS </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="bg1.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="bg2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="bg3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </div>
+           
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+<section class="homeloan" id="homeloan">
+        <div class="loanimage"> 
+            <img src="homeloan.png"> 
+        </div>
+        <div class="loandetail">
+            <p> <b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit. Neque nemo ratione magni adipisci ab. Quo exercitationem, dignissimos, cupiditate eum obcaecati, vitae assumenda iure architecto nemo pariatur ab necessitatibus nesciunt nostrum!</p>
+
+            <p> <b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit. Neque nemo ratione magni adipisci ab. Quo exercitationem, dignissimos, cupiditate eum obcaecati, vitae assumenda iure architecto nemo pariatur ab necessitatibus nesciunt nostrum!</p>
+
+            <p> <b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit. Neque nemo ratione magni adipisci ab. Quo exercitationem, dignissimos, cupiditate eum obcaecati, vitae assumenda iure architecto nemo pariatur ab necessitatibus nesciunt nostrum!</p>
+        </div>
+</section>
+    
+
+<section class="contact" id="contact">
+    <div class="officeaddress">
+        <strong> OFFICE ADDRESS </strong>
+        <p> 307,3rd Floor, RockShine Elegance, <br>
+        Opp: Khadims Showroom, Ring Road, <br> 
+        Bhavngar,Gujarat-364001.</p>
+    </div>
+
+    <div class="founder">
+        <strong> Founder </strong> <br>
+        <b> A.N.Raval </b> <p> 9999897123</p>
+        <b> Er.A.A.Raval </b> <p> 9999897321</p>
+    </div>
+
+    <div class="seniormanager">
+        <strong> SeniorManager</strong> <br>
+        <b> Jignershbhai </b>
+        <p> 81 40 00 00 07 </p>
+    </div>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+   
+</section>
+
+
+
+<script src="javascript.js"> </script>
+
+</body>
+</html>
